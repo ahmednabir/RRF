@@ -1,0 +1,99 @@
+html,body{
+    height: 100%;
+}
+
+
+.single-slide-item {
+	height: 100%;
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.slide-item-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.slide-bg-1{
+    background: url(../img/slide-bg-1.jpg)no-repeat;
+}
+.single-slide-item:after{
+    background: #1d62f0;
+    background: -moz-linear-gradient(-45deg, #1d62f0 0%, #2989d8 50%, #207cca 51%, #1ad8fd 100%);
+    background: -webkit-linear-gradient(-45deg, #1d62f0 0%,#2989d8 50%,#207cca 51%,#1ad8fd 100%);
+    background: linear-gradient(135deg, #1d62f0 0%,#2989d8 50%,#207cca 51%,#1ad8fd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f0', endColorstr='#1ad8fd',GradientType=1 );
+    opacity: .9;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: -1;
+}
+
+.slide-content h2 {
+	font-size: 65px;
+	color: #fff;
+	line-height: 75px;
+}
+
+.video-play-btn {
+	width: 60px;
+	height: 60px;
+	/* display: block; */
+	display: inline-block;
+	background: #06d6a0;
+	color: #fff;
+	line-height: 65px;
+	border-radius: 50%;
+    margin-top: 20px;
+    padding-left: 4px;
+}
+
+.homepage-slides , .homepage-slides div {
+  height: 100%;
+}
+.homepage-slides div.slide-item-wrapper , .homepage-slides div.slide-item-wrapper div,
+.homepage-slides div.owl-controls , .homepage-slides div.owl-controls div {
+  height: auto;
+}
+
+.homepage-slides .owl-nav div{
+	position: absolute;
+	left: 50px;
+	top: 50%;
+	font-size: 15px;
+	opacity: .5;
+	color: #fff;
+    line-height: 30px;
+    margin-top: -15px;
+    transition: .3s;
+}
+
+.homepage-slides .owl-nav div.owl-next{
+    left: auto;
+    right: 50px;
+}
+
+.homepage-slides .owl-nav div:hover{
+    color: #fff;
+    opacity: 1;
+}
+
+.header-area.header-absolute {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	width: 100%;
+}
+
+.header-area .main-menu ul li a {
+	color: #fff;
+}

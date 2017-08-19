@@ -1,0 +1,61 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+  .single-work-sec {margin: 3px;}
+  .miranda-btn .boxed-btn {padding: 10px 12px;}
+	.google_img {top: 74%;}
+	.university_img {top: 85%;}
+	.fa.fa-arrow-right {left: 92%;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  .owl-carousel .owl-item img {
+	
+	width: 20%;
+	
+}
+ .section-bg {padding: 25px 244px;}
+ .section-middle {padding: 20px 54px 63px 150px;}
+ .google_img {left: 6%;}
+
+.university_img {left: 6%; top: 80%;}
+.work-section {padding-left: 185px;}
+.miranda-btn {
+	margin-left: 187px;
+	margin-right: 258px;
+}
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.owl-carousel .owl-item img {
+	display: block;
+	width: 17%;
+	-webkit-transform-style: preserve-3d;
+	}
+	.section-bg {padding-left: 35%;}
+	.section-middle {padding-left: 28%;}
+	.fortfolio-section {padding-left: 28%;}
+	.google_img {left: 10%; top: 67%;}
+	.university_img {left: 10%;top: 82%;}
+	
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 479px) { 
+ .owl-carousel .owl-item img {
+	display: block;
+	width: 17%;
+	-webkit-transform-style: preserve-3d;
+	}
+	.section-bg {padding-left: 35%;}
+	.section-middle {padding-left: 22%;}
+	.fortfolio-section {padding-left: 22%;}
+    .google_img {top: 71%;}
+	.university_img {
+	left: -1%;
+	top: 82%;
+}
+}
